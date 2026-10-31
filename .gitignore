@@ -1,0 +1,12 @@
+# Compiled binaries
+server
+client
+
+# Object files
+*.o
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
