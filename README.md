@@ -31,17 +31,6 @@ The server uses `select()` to monitor incoming UDP messages and keyboard input, 
 - GCC
 - macOS / Linux
 
-## Project Structure
-
-```text
-udp-client-server-multiclient-c/
-├── src/
-│   ├── server.c
-│   └── client.c
-├── screenshots/
-├── README.md
-└── .gitignore
-```
 
 ## Compilation
 
