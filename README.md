@@ -37,13 +37,13 @@ The server uses `select()` to monitor incoming UDP messages and keyboard input, 
 Compile the server:
 
 ```bash
-gcc src/server.c -o server
+gcc server.c -o server
 ```
 
 Compile the client:
 
 ```bash
-gcc src/client.c -o client -pthread
+gcc client.c -o client -pthread
 ```
 
 ## Execution
