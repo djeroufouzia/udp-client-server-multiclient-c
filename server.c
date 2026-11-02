@@ -81,6 +81,8 @@ int main(void)
          */
         if (FD_ISSET(serverfd, &readfds))
         {
+            printf("DEBUG: UDP socket is ready!\n");
+fflush(stdout);
             struct sockaddr_in sender;
             socklen_t sender_len = sizeof(sender);
 
@@ -159,9 +161,7 @@ int main(void)
             }
         }
 
-        /*
-         * 2. Read your manual command when the keyboard is ready.
-         */
+       
         if (FD_ISSET(STDIN_FILENO, &readfds))
         {
             printf("\nYour command: ");
