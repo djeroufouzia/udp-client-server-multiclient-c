@@ -9,7 +9,7 @@
 #include <netinet/in.h>
 
 #define SERVER_IP "192.168.56.7"
-#define PORT 8084
+#define PORT 8080
 #define BUFFER_SIZE 1024
 
 int sockfd;
